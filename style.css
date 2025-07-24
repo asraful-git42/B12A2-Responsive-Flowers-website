@@ -380,6 +380,50 @@ footer {
   .colorful-btn {
     width: 85px;
   }
+  /* footer */
+  footer {
+    flex-direction: column;
+    padding: 0px 0px;
+    margin: 25px 0px;
+  }
+  .footer-box-1 {
+    flex: 2 250;
+  }
+  .footer-links {
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  /* latest-deals */
+
+  .container-title {
+    margin: 0px auto;
+    margin-top: 120px;
+  }
+  .latest-deals {
+    height: 100%;
+    flex-direction: column;
+    margin: 40px 0px;
+  }
+  .latest-left-column {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .latest-card {
+    width: 100%;
+  }
+  .large {
+    width: 100%;
+    height: 100%;
+  }
+  .latest-content a,
+  .shop a {
+    font-size: 0.8rem;
+    text-decoration: underline;
+    border-bottom: none;
+    display: block;
+  }
 }
 
 /* responsive-for tablet or medium*/
