@@ -227,3 +227,34 @@ li {
   margin: 0;
   font-size: 2.2rem;
 }
+
+/* colorful Bunch-section */
+
+.colorful-bunch {
+  max-width: 1440px;
+  height: 533px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/news-letter-bg.png);
+}
+.colorful-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+input {
+  width: 644px;
+  height: 50px;
+  padding: 8px 20px;
+}
+.colorful-btn {
+  width: 186px;
+  height: 50px;
+  margin-left: -5px;
+  border: none;
+  color: #fff;
+  background-color: #e95a08;
+}
