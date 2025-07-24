@@ -502,4 +502,31 @@ footer {
   .latest-deals {
     margin: 20px 0px;
   }
+
+  /* colorful Bunch-secti */
+
+  .colorful-bunch {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  input {
+    width: 400px;
+    height: 50px;
+    padding: 8px 20px;
+  }
+  /* footer-section */
+
+  footer {
+    padding: 50px 80px;
+  }
+  .footer-box-1 img {
+    width: 100px;
+  }
+  .footer-links {
+    flex: 2 1 70px;
+  }
+  .footer-social {
+    gap: 5px;
+  }
 }
