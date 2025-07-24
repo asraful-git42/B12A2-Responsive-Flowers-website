@@ -294,3 +294,27 @@ footer {
   gap: 15px;
   align-items: center;
 }
+
+/* responsive-for tablet or medium*/
+
+@media screen and (min-width: 576px) and (max-width: 1112px) {
+  .hero {
+    height: 100%;
+    margin-bottom: 0px;
+  }
+  .hero-left,
+  .hero-header {
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+
+  .hero-text,
+  .footer-box-1 p,
+  .shop a {
+    font-size: 0.9rem;
+  }
+  .hero-right img {
+    width: 350px;
+    height: 100%;
+  }
+}
