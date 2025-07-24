@@ -294,6 +294,45 @@ footer {
   gap: 15px;
   align-items: center;
 }
+/* responsive-design- for mobile */
+
+@media screen and (max-width: 576px) {
+  a,
+  .flower-midle {
+    display: none;
+  }
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  nav img {
+    height: 30px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  .hero-header,
+  .section-header-1,
+  .flower-right-heder,
+  .colorful-header,
+  .container-header {
+    font-size: 1.2rem;
+  }
+  .hero-text,
+  .discount-25,
+  .discount,
+  .container-header-text,
+  .footer-column a,
+  .footer-box-1 p {
+    font-size: 0.8rem;
+  }
+  .hero-right img {
+    width: 100%;
+  }
+}
 
 /* responsive-for tablet or medium*/
 
