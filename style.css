@@ -448,4 +448,58 @@ footer {
     width: 350px;
     height: 100%;
   }
+
+  /* card-section */
+
+  .section-header {
+    margin-bottom: 0px;
+  }
+  .section-header-text {
+    font-size: 0.8rem;
+    width: 600px;
+    margin-bottom: 40px;
+  }
+  .our-card {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .card {
+    width: 230px;
+  }
+  .btn-primary {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px 40px;
+  }
+  /* Flower & Plants Love */
+  .content {
+    gap: 30px;
+    margin-top: 110px;
+  }
+  .flower-midle {
+    right: 275px;
+  }
+  .flower-right {
+    max-width: 330px;
+  }
+  .flower-right-heder {
+    font-size: 2rem;
+  }
+  /* Latest  Deals */
+
+  .container-title {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  .container-header {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+  .container-header-text,
+  .discount-25 {
+    font-size: 1rem;
+  }
+  .latest-deals {
+    margin: 20px 0px;
+  }
 }
