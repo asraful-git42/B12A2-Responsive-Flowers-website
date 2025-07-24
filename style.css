@@ -428,7 +428,7 @@ footer {
 
 /* responsive-for tablet or medium*/
 
-@media screen and (min-width: 576px) and (max-width: 1112px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .hero {
     height: 100%;
     margin-bottom: 0px;
@@ -516,6 +516,59 @@ footer {
     padding: 8px 20px;
   }
   /* footer-section */
+
+  footer {
+    padding: 50px 80px;
+  }
+  .footer-box-1 img {
+    width: 100px;
+  }
+  .footer-links {
+    flex: 2 1 70px;
+  }
+  .footer-social {
+    gap: 5px;
+  }
+}
+/* responsive-medium */
+
+@media screen and (min-width: 576px) and (max-width: 1140px) {
+  .hero-header {
+    font-size: 2rem;
+  }
+  .our-card {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .card {
+    width: 230px;
+  }
+  .btn-primary {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px 40px;
+  }
+  /* Latest  Deals */
+
+  .container-title {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  .container-header {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+  .container-header-text,
+  .discount-25 {
+    font-size: 1rem;
+  }
+  .shop a {
+    font-size: 0.9rem;
+  }
+  .latest-deals {
+    margin: 20px 0px;
+  }
+  /* footer */
 
   footer {
     padding: 50px 80px;
