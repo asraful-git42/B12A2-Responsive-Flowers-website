@@ -258,3 +258,39 @@ input {
   color: #fff;
   background-color: #e95a08;
 }
+
+/* footer-section */
+
+footer {
+  max-width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 160px;
+}
+.footer-box-1 {
+  flex: 2 250;
+}
+.footer-box-1 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+.footer-links {
+  display: flex;
+  flex: 2 1 400px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.footer-column a {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
